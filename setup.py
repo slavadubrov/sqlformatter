@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 requirements = ["sqlparse==0.4.1"]
 
 setuptools.setup(
-    name="sqlformatter",
+    name="sql-formatter",
     version="0.1",
     author="Viacheslav Dubrov",
     author_email="slavadubrov@gmail.com",
