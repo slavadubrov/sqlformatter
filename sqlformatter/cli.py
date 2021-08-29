@@ -33,12 +33,12 @@ def parse_args():
     return vars(parser.parse_args())
 
 
-def main():
+def main(args=None):
     """
     Entry-point function for sql formatting
     """
     args = parse_args()
-
+    
     paths = check_path(path=args["path"])
     if paths:
         sql_formatter = SQLFormatter(**args["parameters"])

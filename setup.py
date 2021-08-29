@@ -14,11 +14,7 @@ setuptools.setup(
     long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/slavadubrov/sqlformatter",
-    project_urls={
-        "Bug Tracker": "https://github.com/slavadubrov/sqlformatter/sqlformatter/issues",
-    },
     classifiers=["Programming Language :: Python :: 3"],
-    packages=setuptools.find_packages(where="sqlformatter", exclude=["tests"]),
     python_requires=">=3.6",
     install_requires=requirements,
 )
