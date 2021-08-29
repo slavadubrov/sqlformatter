@@ -1,0 +1,8 @@
+-c requirements.txt
+black
+pytest
+pytest-cov
+pip-tools
+pylint
+pytest-pylint
+testfixtures
