@@ -6,7 +6,7 @@ class SQLFormatter:
         self,
         reindent=True,
         indent_width=4,
-        keyword_case="upper",
+        keyword_case="lower",
         identifier_case="lower",
         comma_first=True,
     ):
