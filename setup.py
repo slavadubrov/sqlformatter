@@ -7,7 +7,7 @@ requirements = ["sqlparse==0.4.1"]
 
 setuptools.setup(
     name="sql-formatter",
-    version="0.1.1",
+    version="0.2",
     author="Viacheslav Dubrov",
     author_email="slavadubrov@gmail.com",
     description="SQL Formatter based on sqlparse",
