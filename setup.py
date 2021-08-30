@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 requirements = ["sqlparse==0.4.1"]
 
 setuptools.setup(
-    name="sql-formatter",
+    name="sqlmakeuper",
     version="0.2.2",
     author="Viacheslav Dubrov",
     author_email="slavadubrov@gmail.com",
@@ -18,5 +18,5 @@ setuptools.setup(
     packages=setuptools.find_packages(exclude=["tests"]),
     python_requires=">=3.6",
     install_requires=requirements,
-    entry_points={"console_scripts": ["sqlformatter = sqlformatter.__main__:main"]},
+    entry_points={"console_scripts": ["sqlmakeup = sqlformatter.__main__:main"]},
 )
