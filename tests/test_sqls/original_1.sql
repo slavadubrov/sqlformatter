@@ -1,1 +1,3 @@
-select * from database.table1 where condition1 = 3
+SELECT *
+FROM database.table1
+WHERE condition1 = 3

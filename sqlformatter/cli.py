@@ -38,7 +38,7 @@ def main(args=None):
     Entry-point function for sql formatting
     """
     args = parse_args()
-    
+
     paths = check_path(path=args["path"])
     if paths:
         sql_formatter = SQLFormatter(**args["parameters"])
@@ -54,7 +54,3 @@ def main(args=None):
         reformat_number = make_report(sql_queries=sql_queries, to_check=args["check"])
         define_exit(reformat_number=reformat_number, to_check=args["check"])
     logging.info("No SQL files are present to be formatted. Nothing to do 😴")
-
-
-if __name__ == "__main__":
-    main()
