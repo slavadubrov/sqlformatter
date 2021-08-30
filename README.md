@@ -19,7 +19,7 @@ sqlformatter --path /path/with/files/to/format
 ### Format with custom parameters
 
 ```bash
-sqlformatter --path /path/with/files/to/format --parameters {"comma_first":0}
+sqlformatter --path /path/with/files/to/format --parameters '{"comma_first":0}'
 ```
 
 ### Check with custom parameters
