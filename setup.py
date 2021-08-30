@@ -7,7 +7,7 @@ requirements = ["sqlparse==0.4.1"]
 
 setuptools.setup(
     name="sqlmakeuper",
-    version="0.2.2",
+    version="0.1",
     author="Viacheslav Dubrov",
     author_email="slavadubrov@gmail.com",
     description="SQL Formatter based on sqlparse",
