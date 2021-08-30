@@ -13,17 +13,17 @@ pip install sql-formatter
 ### Format with default parameters (reindent=True, indent_width=4, keyword_case="lower", identifier_case="lower", comma_first=True,)
 
 ```bash
-sql-formatter --path /path/with/files/to/format
+sqlformatter --path /path/with/files/to/format
 ```
 
 ### Format with custom parameters
 
 ```bash
-sql-formatter --path /path/with/files/to/format --parameters {"comma_first":0}
+sqlformatter --path /path/with/files/to/format --parameters {"comma_first":0}
 ```
 
 ### Check with custom parameters
 
 ```bash
-sql-formatter --path /path/with/files/to/format --check
+sqlformatter --path /path/with/files/to/format --check
 ```
